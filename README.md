@@ -69,8 +69,8 @@ Restart web-server and open URL http://HOST/msw/index/
 
 Work scheme
 --------------------
-Once in specified interval, MS check mail accounts for relevance. If authentification can`t be done, MS write message about it and deactivate account. For activate account you mast change password or mark checkbox «Active» in web-part. 
-If authentification is success, MS refresh folders list of every account. After that, for every folder MS get new mail. New mail getting by UIDs difference between server-side and MS-side. So, if some letter can`t be received (connection troubles, etc) it will be received in next time. 
+Once in specified interval, MS check mail accounts for relevance. If authentification can't be done, MS write message about it and deactivate account. For activate account you mast change password or mark checkbox «Active» in web-part. 
+If authentification is success, MS refresh folders list of every account. After that, for every folder MS get new mail. New mail getting by UIDs difference between server-side and MS-side. So, if some letter can't be received (connection troubles, etc) it will be received in next time. 
 Every letter, in receiving process, will be parse of all filters. Matches will put to database and you can see it in web-part. Letters bodies and attachments put in HDD as usual files. 
 If you make new filter, MS work with it for all letters from database. 
 
